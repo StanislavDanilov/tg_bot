@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from pymongo import MongoClient
 
-bot = telebot.TeleBot('1556596504:AAGHMHATIyXgmiYmooz0IjJZR4pMuLi7VvQ');
+bot = telebot.TeleBot('');
 
 client = MongoClient('localhost', 27017)
 db = client['Quicke']
